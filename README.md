@@ -1,4 +1,4 @@
-###Github地址:  [https://github.com/Charlesyaoxin/SlideDemo](https://github.com/Charlesyaoxin/SlideDemo)
+###本文简书地址:  [http://www.jianshu.com/p/9347a28a223e](http://www.jianshu.com/p/9347a28a223e)
 
 ####先来两个gif图
 ![侧滑gifoc和swift.gif](http://upload-images.jianshu.io/upload_images/939127-c0a6ca6cbf0aa7ac.gif?imageMogr2/auto-orient/strip)
@@ -215,7 +215,6 @@ int transX = 0;
     }
 }
 ```
-###本文的Github地址:  [https://github.com/Charlesyaoxin/SlideDemo](https://github.com/Charlesyaoxin/SlideDemo)
-
+###本文简书地址:  [http://www.jianshu.com/p/9347a28a223e](http://www.jianshu.com/p/9347a28a223e)
 ###另外，在空余时间我还高仿了一个内涵段子，如果有兴趣的话，可以点击此链接   高仿内涵段子：Github地址：[https://github.com/Charlesyaoxin/NeiHanDuanZI](https://github.com/Charlesyaoxin/NeiHanDuanZI)
 ##[10天时间高仿内涵段子app，一个你值得收藏的Demo源码](https://github.com/Charlesyaoxin/NeiHanDuanZI)
