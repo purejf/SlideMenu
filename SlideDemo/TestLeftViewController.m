@@ -22,14 +22,15 @@
     [self.view addSubview:label];
     [label setText:@"回到swift版本的侧滑"];
     label.font = [UIFont boldSystemFontOfSize:18];
-    label.textColor = [UIColor redColor];
+    label.textColor = [UIColor whiteColor];
     label.userInteractionEnabled = YES;
     label.numberOfLines = 0;
+    label.backgroundColor = [UIColor redColor];
     [label addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGest:)]];
 }
 
 - (void)tapGest:(UITapGestureRecognizer *)tapGest {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:false completion:nil];
 }
  
 

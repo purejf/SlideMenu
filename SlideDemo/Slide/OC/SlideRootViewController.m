@@ -75,6 +75,13 @@
     [self updateContrantsWithTransX:_slideTranslationX animated:YES];
 }
 
+/**
+ *  返回初始样式
+ */
+- (void)slideBack {
+    [self updateContrantsWithTransX:0 animated:YES];
+}
+
 // 侧滑
 - (void)updateContrantsWithTransX:(CGFloat)tX
                          animated:(BOOL)animated {

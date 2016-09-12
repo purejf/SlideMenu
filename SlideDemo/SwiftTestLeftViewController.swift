@@ -21,6 +21,7 @@ class SwiftTestLeftViewController: UIViewController {
         label.font = UIFont.boldSystemFontOfSize(18)
         label.text = "这里是Swift版本的侧滑，点击此按钮进入OC版本的侧滑"
         label.userInteractionEnabled = true
+        label.backgroundColor = UIColor.redColor()
         label.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action:  #selector(self.tapGest(_:))))
     }
     
@@ -38,6 +39,9 @@ class SwiftTestLeftViewController: UIViewController {
         
         let tabbarVc = UITabBarController()
         tabbarVc.viewControllers = [ocV1, ocV2]
+        
+        let swiftSlideRoot = UIApplication.sharedApplication().keyWindow?.rootViewController as! SwiftSlideRootViewController
+        swiftSlideRoot.slideBack()
         
         let ocSlide = SlideRootViewController.init(leftVC: ocTestLeft, mainVC: tabbarVc, slideTranslationX: 80)
         self.presentViewController(ocSlide, animated: true, completion: nil)

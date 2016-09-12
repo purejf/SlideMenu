@@ -35,4 +35,9 @@
  *  侧滑抽屉
  */
 - (void)slideToLeft;
+
+/**
+ *  返回初始样式
+ */
+- (void)slideBack;
 @end
