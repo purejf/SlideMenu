@@ -215,5 +215,3 @@ int transX = 0;
     }
 }
 ``` 
-###另外，在空余时间我还高仿了一个内涵段子，如果有兴趣的话，可以点击此链接   高仿内涵段子：Github地址：[https://github.com/Charlesyaoxin/NeiHanDuanZI](https://github.com/Charlesyaoxin/NeiHanDuanZI)
-##[10天时间高仿内涵段子app，一个你值得收藏的Demo源码](https://github.com/Charlesyaoxin/NeiHanDuanZI)
